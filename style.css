@@ -20,6 +20,33 @@ main{
   height: 100%;
 }
 
+#gui-container{
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  z-index: 100;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  background-color: rgb(255,255,255,0.7);
+}
+
+@media screen and (max-width: 500px) {
+  #gui-container{
+    left:0;
+    margin:0;
+    border-radius: 10px 10px 0  0;
+    width:100%;
+  }
+  .button{
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
 .button{
   background-color: #371bd3;
   border: solid 1px #371bd3;

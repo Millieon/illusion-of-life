@@ -165,6 +165,7 @@ food= new Food(random(width),random(height),random(10,20));
   // }
 
   index=int(random(20));
+  rectMode(CENTER);
 
   addGUI();
 }
